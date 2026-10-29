@@ -2,7 +2,7 @@ import unittest
 import sys
 from pathlib import Path
 # 将项目根目录添加到Python搜索路径
-sys.path.append(str(Path(__file__).parent.parent))  # 指向flask-web-app目录
+sys.path.append(str(Path(__file__).parent.parent))
 from src.app import app
 class TestApp(unittest.TestCase):
     def setUp(self):
